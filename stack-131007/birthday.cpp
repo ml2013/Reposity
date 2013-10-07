@@ -8,7 +8,7 @@ FILE *fin;
 int NameCount;
 int DupeCount;
 
-int hash_birthday ( char *);
+int hash_birthday ( char *      );ddd
 
 #ifdef __STDC__
 char *strdup ( const char * );
@@ -32,6 +32,7 @@ int main(int argc , char *argv[] )
     {
         fprintf (stderr,"Error , Expecting birthday file \n ");
         exit (EXIT_FAILURE);
+#define TABLE_SIZE 366
     }
 
     for ( i = 0; i <TABLE_SIZE ; i++ )
